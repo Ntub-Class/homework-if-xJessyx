@@ -23,7 +23,7 @@ console.log(Number.isFinite(123));//TRUEALUE若是有限數值會出現TRUE；�
 let money = 40000;
 let limit = 500000; // 限制值
 
-if (money>=40000 && money<500000) {
+if (money>=40000 && money<limit) {
     console.log('乾爹');
 } else {
     console.log('乾哥');
